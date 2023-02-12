@@ -31,6 +31,7 @@
   <Import Project="LVGL.Drivers.vcxitems" />
   <ItemGroup>
     <ClInclude Include="lv_conf.h" />
+    <ClInclude Include="simulator_vs\course_main.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lv_drv_conf.h" />
@@ -44,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="simulator_vs\course_main.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
